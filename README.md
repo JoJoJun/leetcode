@@ -20,7 +20,7 @@
 - 89 Gray Code(medium)
 - [90 Subsets II (medium)](https://leetcode-cn.com/problems/subsets-ii/) √
 - 93 Restore IP Addresses(medium)
-- 131 Palindrome Partitioning    (medium)
+- [131 Palindrome Partitioning    (medium)](https://leetcode-cn.com/problems/palindrome-partitioning/) √
 - 200 Number of Islands （medium）
 - 211 	Add and Search Word - Data structure design(medium)
 - 212 Word Search II (medium)
