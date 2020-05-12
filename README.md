@@ -15,7 +15,7 @@
 - 47 Permutations II (medium)
 - 60 Permutation Sequence(medium)
 - 77 Combinations (medium)
-- 78 Subsets(medium)
+- √ 78 Subsets(medium)
 - 79 Word Search(medium)
 - 89 Gray Code(medium)
 - 90 Subsets II (medium)
