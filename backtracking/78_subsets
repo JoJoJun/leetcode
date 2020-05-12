@@ -1,0 +1,18 @@
+
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int> > ans;
+        vector<int>temp;
+        backtrack(nums,ans,temp,0);
+        return ans;
+    }
+    void backtrack(vector<int>& nums, vector<vector<int>>&ans,vector<int>temp,int k){
+        ans.push_back(temp);
+        for(int i = k;i<nums.size();i++){
+            temp.push_back(nums[i]);
+            backtrack(nums,ans,temp,i+1);
+            temp.pop_back();
+        }
+    }
+};
