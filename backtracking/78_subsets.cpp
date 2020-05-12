@@ -2,6 +2,13 @@
 /*
 从空集开始，每次加一个树。这个过程中产生的所有temp都是满足要求的；
 为了不重复，每次前进的选项里是从k开始，向下走是i+1
+backtrack:
+    add record or decide wether is over
+    list options:
+        if option is valid:
+            update states
+            step forward
+            pop update
 */
 class Solution {
 public:
