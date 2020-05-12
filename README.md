@@ -9,7 +9,7 @@
 - 401 Binary Watch (easy)
 - 17 Letter Combinations of a Phone Number(medium)
 - 22 Generate Parentheses(medium)
-- 39 Combination Sum (medium)
+- [39 Combination Sum (medium)](https://leetcode-cn.com/problems/combination-sum/) √
 - 40 Combination Sum II (medium)
 - [46 Permutations (medium)](https://leetcode-cn.com/problems/permutations/) √
 - [47 Permutations II (medium)](https://leetcode-cn.com/problems/permutations-ii/) √
