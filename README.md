@@ -12,7 +12,7 @@
 - 39 Combination Sum (medium)
 - 40 Combination Sum II (medium)
 - [46 Permutations (medium)](https://leetcode-cn.com/problems/permutations/) √
-- 47 Permutations II (medium)
+- [47 Permutations II (medium)](https://leetcode-cn.com/problems/permutations-ii/) √
 - 60 Permutation Sequence(medium)
 - 77 Combinations (medium)
 - [78 Subsets(medium)](https://leetcode-cn.com/problems/subsets/)  √
