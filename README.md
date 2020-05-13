@@ -6,7 +6,7 @@
 
 遂决定开一个repository记录该过程。
 ## backtrack
-- 401 Binary Watch (easy)
+- [401 Binary Watch (easy)] (https://github.com/JoJoJun/leetcode/backtracking/401_BinaryWatch.md) √
 - 17 Letter Combinations of a Phone Number(medium)
 - 22 Generate Parentheses(medium)
 - [39 Combination Sum (medium)](https://leetcode-cn.com/problems/combination-sum/) √
