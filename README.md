@@ -14,7 +14,7 @@
 - [46 Permutations (medium)](https://leetcode-cn.com/problems/permutations/) √
 - [47 Permutations II (medium)](https://leetcode-cn.com/problems/permutations-ii/) √
 - 60 Permutation Sequence(medium)
-- 77 Combinations (medium)
+- [77 Combinations (medium)](https://leetcode-cn.com/problems/combinations/) √
 - [78 Subsets(medium)](https://leetcode-cn.com/problems/subsets/)  √
 - 79 Word Search(medium)
 - 89 Gray Code(medium)
