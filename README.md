@@ -8,7 +8,7 @@
 ## backtrack
 - [401 Binary Watch (easy)](https://leetcode-cn.com/problems/binary-watch/) √
 - [17 Letter Combinations of a Phone Number(medium)](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)√
-- 22 Generate Parentheses(medium)
+- [22 Generate Parentheses(medium)](https://leetcode-cn.com/problems/generate-parentheses/) √
 - [39 Combination Sum (medium)](https://leetcode-cn.com/problems/combination-sum/) √
 - [40 Combination Sum II (medium)](https://leetcode-cn.com/problems/combination-sum-ii/)
 - [46 Permutations (medium)](https://leetcode-cn.com/problems/permutations/) √
