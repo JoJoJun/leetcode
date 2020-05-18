@@ -13,12 +13,11 @@
 - [40 Combination Sum II (medium)](https://leetcode-cn.com/problems/combination-sum-ii/)
 - [46 Permutations (medium)](https://leetcode-cn.com/problems/permutations/) √
 - [47 Permutations II (medium)](https://leetcode-cn.com/problems/permutations-ii/) √
-- 60 Permutation Sequence(medium)
 - [77 Combinations (medium)](https://leetcode-cn.com/problems/combinations/) √
 - [78 Subsets(medium)](https://leetcode-cn.com/problems/subsets/)  √
 - [79 Word Search(medium)](https://leetcode-cn.com/problems/word-search/) √
 - [90 Subsets II (medium)](https://leetcode-cn.com/problems/subsets-ii/) √
-- 93 Restore IP Addresses(medium)
+- [93 Restore IP Addresses(medium)](https://leetcode-cn.com/problems/restore-ip-addresses/)  √
 - [131 Palindrome Partitioning    (medium)](https://leetcode-cn.com/problems/palindrome-partitioning/) √
 - 200 Number of Islands （medium）
 - 211 	Add and Search Word - Data structure design(medium)
