@@ -17,7 +17,6 @@
 - [77 Combinations (medium)](https://leetcode-cn.com/problems/combinations/) √
 - [78 Subsets(medium)](https://leetcode-cn.com/problems/subsets/)  √
 - [79 Word Search(medium)](https://leetcode-cn.com/problems/word-search/) √
-- 89 Gray Code(medium)
 - [90 Subsets II (medium)](https://leetcode-cn.com/problems/subsets-ii/) √
 - 93 Restore IP Addresses(medium)
 - [131 Palindrome Partitioning    (medium)](https://leetcode-cn.com/problems/palindrome-partitioning/) √
@@ -176,3 +175,5 @@ Subarrays with Product Less than a Target (medium)
 ## DP
 待补充
 
+## 位运算
+-89 Gray code (medium)
