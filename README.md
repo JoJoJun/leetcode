@@ -16,7 +16,7 @@
 - 60 Permutation Sequence(medium)
 - [77 Combinations (medium)](https://leetcode-cn.com/problems/combinations/) √
 - [78 Subsets(medium)](https://leetcode-cn.com/problems/subsets/)  √
-- 79 Word Search(medium)
+- [79 Word Search(medium)](https://leetcode-cn.com/problems/word-search/) √
 - 89 Gray Code(medium)
 - [90 Subsets II (medium)](https://leetcode-cn.com/problems/subsets-ii/) √
 - 93 Restore IP Addresses(medium)
