@@ -22,8 +22,8 @@
 - [131 Palindrome Partitioning    (medium)](https://leetcode-cn.com/problems/palindrome-partitioning/) √
 - [200 Number of Islands （medium）](https://leetcode-cn.com/problems/number-of-islands/)  √
 - [216 Combination Sum III (medium)](https://leetcode-cn.com/problems/combination-sum-iii/)  √
-- 254 	Factor Combinations (medium)
-- 306 Additive Number(medium)
+- 254 	Factor Combinations (medium) --locked
+- [306 Additive Number(medium)] (https://leetcode-cn.com/problems/additive-number/) √
 - 357 Count Numbers with Unique Digits(medium)
 - 547 Friend Circles (medium)
 - 51 N-Queens (hard)
