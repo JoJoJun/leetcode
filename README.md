@@ -21,15 +21,15 @@
 - [130 surrounded-regions (medium)](https://leetcode-cn.com/problems/surrounded-regions/) √
 - [131 Palindrome Partitioning    (medium)](https://leetcode-cn.com/problems/palindrome-partitioning/) √
 - [200 Number of Islands （medium）](https://leetcode-cn.com/problems/number-of-islands/)  √
-- 211 	Add and Search Word - Data structure design(medium)
-- 212 Word Search II (medium)
-- 216 Combination Sum III (medium)
+- [216 Combination Sum III (medium)](https://leetcode-cn.com/problems/combination-sum-iii/)  √
 - 254 	Factor Combinations (medium)
 - 306 Additive Number(medium)
 - 357 Count Numbers with Unique Digits(medium)
 - 547 Friend Circles (medium)
 - 51 N-Queens (hard)
 - 132 Palindrome Partitioning    (hard)
+- 212 Word Search II (hard)
+
 
 ## DFS 
 > the difference between dfs and backtracking:Backtracking is a more general purpose algorithm.  Depth-First search is a specific form of backtracking related to searching tree structures. From Wikipedia:
