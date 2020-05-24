@@ -71,6 +71,7 @@ DFS magic spell: 1]push to stack, 2] pop top , 3] retrieve unvisited neighbours 
 - 286 Walls and Gates(medium)
 
 ## 二分
+参考[题解](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/)
 - 35 Search Insert Position (easy)
 - 69 Sqrt(x) (easy)
 - 278 First Bad Version (easy)
@@ -84,20 +85,20 @@ DFS magic spell: 1]push to stack, 2] pop top , 3] retrieve unvisited neighbours 
 - 222 Count Complete Tree Nodes(medium)
 - 275 H-Index II (medium)
 ## 滑动窗口型
+见大神的一篇(https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
 初始左指针（left）和右指针（right）都指向0
 右指针不断向右移动
 当满足窗口大小时候，进行相应的处理，这个和过程中需要left向右移动
 - 325 Maximum Sum Subarray of Size K (easy)
 - Smallest Subarray with a given sum (easy) 209 Minimum Size Subarray Sum 
-- Longest Substring with K Distinct Characters (medium)
+- [3  Longest Substring Without Repeating Characters (medium)](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)  √
  - 159 Longest Substring with At Most Two Distinct Characters
  - 340 Longest Substring with At Most K Distinct Characters 
  - 395 Longest Substring with At Least K Repeating Characters  
- - 438 Find All Anagrams in a String (medium)
+ - [438 Find All Anagrams in a String (medium)](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) √
 - 904 Fruits into Baskets (medium)
 - 567 Permutation in String (medium) 固定窗口
 - 1052 Grumpy Bookstore Owner  （medium）固定窗口
-- 3  Longest Substring Without Repeating Characters (medium)
 - 424	Longest Repeating Character Replacement 替换后的最长重复字符 (medium)
 - 978 Longest Turbulent Subarray    （medium）
 - Longest Subarray with Ones after Replacement (hard)
@@ -107,6 +108,7 @@ DFS magic spell: 1]push to stack, 2] pop top , 3] retrieve unvisited neighbours 
 - 992 Subarrays with K Different Integers 	K 个不同整数的子数组 (hard)
 
 ##  双指针、快慢指针
+见[大神题解：](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/%E5%8F%8C%E6%8C%87%E9%92%88%E6%8A%80%E5%B7%A7.md)
 > Remove Duplicates (easy)
 Squaring a Sorted Array (easy)
 Triplet Sum to Zero (medium)
