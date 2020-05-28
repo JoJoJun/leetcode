@@ -124,8 +124,8 @@ Subarrays with Product Less than a Target (medium)
 - [680 Valid Palindrome II (Easy)](https://leetcode-cn.com/problems/valid-palindrome-ii/)
 - [11 Container With Most Water  (medium)](https://leetcode-cn.com/problems/container-with-most-water/)
 - [15 3Sum  (medium)](https://leetcode-cn.com/problems/3sum/)
-- 16 3Sum Closest    最接近三数只和 (medium)
-- 18 4Sum (medium)
+- [16 3Sum Closest    最接近三数只和 (medium)](https://leetcode-cn.com/problems/3sum-closest/)
+- [18 4Sum (medium)](https://leetcode-cn.com/problems/4sum/)
 
 
  快慢指针
