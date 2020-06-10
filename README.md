@@ -23,7 +23,7 @@
 - [200 Number of Islands （medium）](https://leetcode-cn.com/problems/number-of-islands/)  √
 - [216 Combination Sum III (medium)](https://leetcode-cn.com/problems/combination-sum-iii/)  √
 - 254 	Factor Combinations (medium) --locked
-- [306 Additive Number(medium)] (https://leetcode-cn.com/problems/additive-number/) √
+- [306 Additive Number(medium)](https://leetcode-cn.com/problems/additive-number/) √
 - 357 Count Numbers with Unique Digits(medium)
 - 547 Friend Circles (medium)
 - 51 N-Queens (hard)
@@ -116,30 +116,30 @@ Triplet Sum Close to Target (medium)
 Triplets with Smaller Sum (medium)
 Subarrays with Product Less than a Target (medium)
 
-- [26 Remove Duplicates from Sorted Array (easy)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
-- [88 Merge Sorted Array (Easy)](https://leetcode-cn.com/problems/merge-sorted-array/)
-- [167. Two Sum II - Input array is sorted (Easy)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
-- [345 Reverse Vowels of a String (Easy)](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
-- [633 Sum of Square Numbers (Easy)](https://leetcode-cn.com/problems/sum-of-square-numbers/)
-- [680 Valid Palindrome II (Easy)](https://leetcode-cn.com/problems/valid-palindrome-ii/)
-- [11 Container With Most Water  (medium)](https://leetcode-cn.com/problems/container-with-most-water/)
-- [15 3Sum  (medium)](https://leetcode-cn.com/problems/3sum/)
-- [16 3Sum Closest    最接近三数只和 (medium)](https://leetcode-cn.com/problems/3sum-closest/)
-- [18 4Sum (medium)](https://leetcode-cn.com/problems/4sum/)
+- [26 Remove Duplicates from Sorted Array (easy)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)  √
+- [88 Merge Sorted Array (Easy)](https://leetcode-cn.com/problems/merge-sorted-array/) √
+- [167. Two Sum II - Input array is sorted (Easy)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) √
+- [345 Reverse Vowels of a String (Easy)](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) √
+- [633 Sum of Square Numbers (Easy)](https://leetcode-cn.com/problems/sum-of-square-numbers/) √
+- [680 Valid Palindrome II (Easy)](https://leetcode-cn.com/problems/valid-palindrome-ii/) √
+- [11 Container With Most Water  (medium)](https://leetcode-cn.com/problems/container-with-most-water/) √
+- [15 3Sum  (medium)](https://leetcode-cn.com/problems/3sum/) √
+- [16 3Sum Closest    最接近三数只和 (medium)](https://leetcode-cn.com/problems/3sum-closest/) √
+- [18 4Sum (medium)](https://leetcode-cn.com/problems/4sum/) √
 
 
  快慢指针
  > LinkedList Cycle (easy)
 > Start of LinkedList Cycle (medium)
 
-- [141 Linked List Cycle (Easy)](https://leetcode-cn.com/problems/linked-list-cycle/)
-- [160 Intersection of Two Linked Lists 相交链表 (easy)](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
-- 202 Happy Number (easy)
-- 234 Palindrome Linked List  回文链表 (easy)
-- 878 Middle of the LinkedList (easy)
-- 19 Remove Nth Node From End of List 删除链表倒数第N个节点 (medium)
-- [142 Linked List Cycle II(medium)](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
-- 524 Longest Word in Dictionary through Deleting (Medium)
+- [141 Linked List Cycle (Easy)](https://leetcode-cn.com/problems/linked-list-cycle/) √
+- [160 Intersection of Two Linked Lists 相交链表 (easy)](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) √
+- [202 Happy Number (easy)](https://leetcode-cn.com/problems/happy-number/) √
+- [234 Palindrome Linked List  回文链表 (easy)](https://leetcode-cn.com/problems/palindrome-linked-list/) √
+- [876 Middle of the LinkedList (easy)](https://leetcode-cn.com/problems/middle-of-the-linked-list/) √
+- [19 Remove Nth Node From End of List 删除链表倒数第N个节点 (medium)](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) √
+- [142 Linked List Cycle II(medium)](https://leetcode-cn.com/problems/linked-list-cycle-ii/) √
+- [524 Longest Word in Dictionary through Deleting (Medium)](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/) √
 
 
 剑指offer 待补充
