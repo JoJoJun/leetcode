@@ -39,24 +39,25 @@ DFS magic spell: 1]push to stack, 2] pop top , 3] retrieve unvisited neighbours 
 - 101 Symmetric Tree  (easy)
 - 104 Maximum Depth of Binary Tree(easy)
 - 108	Convert Sorted Array to Binary Search Tree (easy)
-- 	257	Binary Tree Paths (easy)
+- 257	Binary Tree Paths (easy)
 - 797 	All Paths From Source to Target (medium)
 - 110 Balanced Binary Tree(easy)
 - 112 Path Sum (easy)
 - 113 Path Sum II （easy）
 - 543  	Diameter of Binary Tree 二叉树的直径（easy）
 - 94 Binary Tree Inorder Traversal    (medium)
+- 98 Validate Binary Search Tree 验证二叉搜索树（medium）
 - 109 Convert Sorted List to Binary Search Tree (medium)
 - 114 Flatten Binary Tree to Linked List  (medium)
-- 199	Binary Tree Right Side View  (medium)
-- 98 Validate Binary Search Tree 验证二叉搜索树（medium）
-- 144 Binary Tree Preorder Traversal (medium)
 - 105 Construct Binary Tree from Preorder and Inorder Traversal  从前序与中序遍历序列构造二叉树(medium)
 - 106 Construct Binary Tree from Inorder and Postorder Traversal 从中序与后序遍历序列构造二叉树 (medium)
 - 114 Flatten Binary Tree to Linked List （medium）
-- 	116 Populating Next Right Pointers in Each Node 填充同一层的兄弟节点(medium)
+- 116 Populating Next Right Pointers in Each Node 填充同一层的兄弟节点(medium)
 - 117 	Populating Next Right Pointers in Each Node II   （medium）
 - 129 Sum Root to Leaf Numbers (medium)
+- 144 Binary Tree Preorder Traversal (medium)
+- 199	Binary Tree Right Side View  (medium)
+- 222 Count Complete Tree Nodes(medium)
 - 323 Number of Connected Components in an Undirected Graph(medium)
 - 124 	Binary Tree Maximum Path Sum  (hard)
 
@@ -72,18 +73,34 @@ DFS magic spell: 1]push to stack, 2] pop top , 3] retrieve unvisited neighbours 
 
 ## 二分
 参考[题解](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/)
-- 35 Search Insert Position (easy)
-- 69 Sqrt(x) (easy)
-- 278 First Bad Version (easy)
-- 29 Divide Two Integers (medium)
-- 33 Search in Rotated Sorted Array (medium)
-- 50 Pow(x, n) (meidum)
-- 74 Search a 2D Matrix (medium)
-- 81 Search in Rotated Sorted Array II (medium)
-- 153 Find Minimum in Rotated Sorted Array(medium)
-- 162 Find Peak Element (medium)
-- 222 Count Complete Tree Nodes(medium)
-- 275 H-Index II (medium)
+
+几种常见情况：搜索一个数、搜索左区间、搜索右区间
+
+![1592030582368](C:\Users\zzj\AppData\Roaming\Typora\typora-user-images\1592030582368.png)
+
+为了防止溢出，最好用
+
+```cpp
+int mid = left + (right - left) / 2;
+```
+
+搜索一个数时，区间是[0,size()-1]，是整个的闭区间，while的条件也是<=，因为这样最终才会得到空区间；
+
+当寻找符合条件的左边最后一个时，搜索的是左闭右开区间[0,size()),while中的条件也是<，每次是mid+1或mid。也可以用闭区间的，只是最后需要检查是否越界
+
+统一的话区别只在是否返回以及最后循环外返回的检查
+
+- [35 Search Insert Position (easy)](https://leetcode-cn.com/problems/search-insert-position/)
+- [69 Sqrt(x) (easy)](https://leetcode-cn.com/problems/sqrtx/)
+- [278 First Bad Version (easy)](https://leetcode-cn.com/problems/first-bad-version/) -- 左区间
+- [29 Divide Two Integers (medium)](https://leetcode-cn.com/problems/divide-two-integers/) 注意INT范围
+- [33 Search in Rotated Sorted Array (medium)](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+- [50 Pow(x, n) (meidum)](https://leetcode-cn.com/problems/powx-n/)
+- [74 Search a 2D Matrix (medium)](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [81 Search in Rotated Sorted Array II (medium) ](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)相比33，数组中存在重复数字
+- [153 Find Minimum in Rotated Sorted Array(medium)](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- [162 Find Peak Element (medium)](https://leetcode-cn.com/problems/find-peak-element/)
+- [275 H-Index II (medium)](https://leetcode-cn.com/problems/h-index-ii/)
 ## 滑动窗口型
 见大神的一篇(https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
 初始左指针（left）和右指针（right）都指向0
