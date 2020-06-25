@@ -31,38 +31,63 @@
 - 212 Word Search II (hard)
 
 
-## DFS 
+## DFS /二叉树
 > the difference between dfs and backtracking:Backtracking is a more general purpose algorithm.  Depth-First search is a specific form of backtracking related to searching tree structures. From Wikipedia:
-DFS magic spell: 1]push to stack, 2] pop top , 3] retrieve unvisited neighbours of top, push them to stack 4] repeat 1,2,3 while stack not empty. -- https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353
+> DFS magic spell: 1]push to stack, 2] pop top , 3] retrieve unvisited neighbours of top, push them to stack 4] repeat 1,2,3 while stack not empty. -- https://medium.com/leetcode-patterns/leetcode-pattern-1-bfs-dfs-25-of-the-problems-part-1-519450a84353
+>
+> 对于二叉树的问题，明确一个节点要做什么，剩下的递归下去
+>
+> ```java
+> void traverse(TreeNode root) {
+>     // root 需要做什么？在这做。
+>     // 其他的不用 root 操心，抛给框架
+>     traverse(root.left);
+>     traverse(root.right);
+> }
+> 
+> 作者：labuladong
+> 链接：https://leetcode-cn.com/problems/same-tree/solution/xie-shu-suan-fa-de-tao-lu-kuang-jia-by-wei-lai-bu-/
+> 来源：力扣（LeetCode）
+> ```
+>
 
-- 100 Same Tree  (easy)
-- 101 Symmetric Tree  (easy)
-- 104 Maximum Depth of Binary Tree(easy)
-- 108	Convert Sorted Array to Binary Search Tree (easy)
-- 257	Binary Tree Paths (easy)
-- 797 	All Paths From Source to Target (medium)
-- 110 Balanced Binary Tree(easy)
-- 112 Path Sum (easy)
-- 113 Path Sum II （easy）
-- 543  	Diameter of Binary Tree 二叉树的直径（easy）
+注意很多时候需要判断左子树和右子树是否为空
+
+- [100 Same Tree  (easy)](https://leetcode-cn.com/problems/same-tree/submissions/) 相同的树 √
+- [101 Symmetric Tree  (easy)](https://leetcode-cn.com/problems/symmetric-tree/) 判断对称二叉树 √
+- [104 Maximum Depth of Binary Tree(easy)](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) 二叉树的最大深度 √
+- [108	Convert Sorted Array to Binary Search Tree (easy)](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)  其实也是个二分  二分搜索树 √
+- [110 Balanced Binary Tree(easy)](https://leetcode-cn.com/problems/balanced-binary-tree/) 平衡二叉树判断√
+- [111 树的最小深度(easy) ](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) √
+- [112 Path Sum (easy)](https://leetcode-cn.com/problems/path-sum/)√
+- [226 翻转二叉树 （easy）](https://leetcode-cn.com/problems/invert-binary-tree/)√
+- [235 二叉搜索树的最近公共祖先（easy）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) √
+- [257	Binary Tree Paths (easy)](https://leetcode-cn.com/problems/binary-tree-paths/)二叉树的所有路径 backtrack  √
+- 270 最接近的二叉搜索树值（easy） locked
+- [404 左叶子之和（easy）](https://leetcode-cn.com/problems/sum-of-left-leaves/) √
+- [543  	Diameter of Binary Tree 二叉树的直径（easy）](https://leetcode-cn.com/problems/diameter-of-binary-tree/) √
 - 94 Binary Tree Inorder Traversal    (medium)
 - 98 Validate Binary Search Tree 验证二叉搜索树（medium）
+- 102 二叉树层序遍历（medium）
+- 105 前序中序构造二叉树 （medium）
+- 106 中序后序构造二叉树 （medium）
 - 109 Convert Sorted List to Binary Search Tree (medium)
-- 114 Flatten Binary Tree to Linked List  (medium)
-- 105 Construct Binary Tree from Preorder and Inorder Traversal  从前序与中序遍历序列构造二叉树(medium)
-- 106 Construct Binary Tree from Inorder and Postorder Traversal 从中序与后序遍历序列构造二叉树 (medium)
-- 114 Flatten Binary Tree to Linked List （medium）
+- 113 Path Sum II （medium）
+- 114 二叉树展开为列表 （medium）
 - 116 Populating Next Right Pointers in Each Node 填充同一层的兄弟节点(medium)
 - 117 	Populating Next Right Pointers in Each Node II   （medium）
-- 129 Sum Root to Leaf Numbers (medium)
-- 144 Binary Tree Preorder Traversal (medium)
 - 199	Binary Tree Right Side View  (medium)
+- 129 Sum Root to Leaf Numbers (medium)
 - 222 Count Complete Tree Nodes(medium)
+- 236 二叉树的最近公共节点(medium)
 - 323 Number of Connected Components in an Undirected Graph(medium)
+- 797 	All Paths From Source to Target (medium)
 - 124 	Binary Tree Maximum Path Sum  (hard)
 
+
+
 ## BFS
-- 101 Symmetric Tree (easy)
+
 - 107 Binary Tree Level Order Traversal II (easy)
 - 102 	Binary Tree Level Order Traversal   (medium)
 - 103 Binary Tree Zigzag Level Order Traversal (medium)
@@ -198,3 +223,8 @@ Subarrays with Product Less than a Target (medium)
 
 ## 位运算
 -89 Gray code (medium)
+
+
+
+
+
