@@ -6,7 +6,7 @@
 
 遂决定开一个repository记录该过程。
 ## backtrack
-- [401 Binary Watch (easy)](https://leetcode-cn.com/problems/binary-watch/) √
+- [401 Binary Watch (easy)](https://leetcode-cn.com/problems/binary-watch/) √ 
 - [17 Letter Combinations of a Phone Number(medium)](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)√
 - [22 Generate Parentheses(medium)](https://leetcode-cn.com/problems/generate-parentheses/) √
 - [39 Combination Sum (medium)](https://leetcode-cn.com/problems/combination-sum/) √
@@ -56,7 +56,7 @@
 - [100 Same Tree  (easy)](https://leetcode-cn.com/problems/same-tree/submissions/) 相同的树 √
 - [101 Symmetric Tree  (easy)](https://leetcode-cn.com/problems/symmetric-tree/) 判断对称二叉树 √
 - [104 Maximum Depth of Binary Tree(easy)](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) 二叉树的最大深度 √
-- [108	Convert Sorted Array to Binary Search Tree (easy)](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)  其实也是个二分  二分搜索树 √
+- [108	Convert Sorted Array to Binary Search Tree (easy)](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)  将有序数组转化为二叉搜索树   其实也是个二分  二分搜索树 √
 - [110 Balanced Binary Tree(easy)](https://leetcode-cn.com/problems/balanced-binary-tree/) 平衡二叉树判断√
 - [111 树的最小深度(easy) ](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) √
 - [112 Path Sum (easy)](https://leetcode-cn.com/problems/path-sum/)√
@@ -66,22 +66,19 @@
 - 270 最接近的二叉搜索树值（easy） locked
 - [404 左叶子之和（easy）](https://leetcode-cn.com/problems/sum-of-left-leaves/) √
 - [543  	Diameter of Binary Tree 二叉树的直径（easy）](https://leetcode-cn.com/problems/diameter-of-binary-tree/) √
-- 94 Binary Tree Inorder Traversal    (medium)
-- 98 Validate Binary Search Tree 验证二叉搜索树（medium）
-- 102 二叉树层序遍历（medium）
-- 105 前序中序构造二叉树 （medium）
-- 106 中序后序构造二叉树 （medium）
-- 109 Convert Sorted List to Binary Search Tree (medium)
-- 113 Path Sum II （medium）
-- 114 二叉树展开为列表 （medium）
-- 116 Populating Next Right Pointers in Each Node 填充同一层的兄弟节点(medium)
-- 117 	Populating Next Right Pointers in Each Node II   （medium）
-- 199	Binary Tree Right Side View  (medium)
-- 129 Sum Root to Leaf Numbers (medium)
-- 222 Count Complete Tree Nodes(medium)
-- 236 二叉树的最近公共节点(medium)
-- 323 Number of Connected Components in an Undirected Graph(medium)
-- 797 	All Paths From Source to Target (medium)
+- [94 Binary Tree Inorder Traversal    (medium) ](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)二叉树的中序遍历 √
+- [98 Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) 验证二叉搜索树（medium）√
+- [105 前序中序构造二叉树 （medium）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) √
+- [106 中序后序构造二叉树 （medium）](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) 105 & 106在树的大小+-1上有坑，注意举个例子判断，这里要-1的 √
+- [109 Convert Sorted List to Binary Search Tree (medium) ](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)将有序链表转化为平衡的二叉搜索树  相比108只是多了找链表的中间节点 √
+- [113 Path Sum II （medium）](https://leetcode-cn.com/problems/path-sum-ii/)  √
+- [114 二叉树展开为列表 （medium）](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)√
+- [116 Populating Next Right Pointers in Each Node 填充同一层的兄弟节点(medium)](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) 可以用层序遍历，也可以用DFS √
+- [117 	Populating Next Right Pointers in Each Node II  填充每一个节点的下一个右侧节点指针 非满二叉树  （medium）](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)√
+- [129 Sum Root to Leaf Numbers (medium)](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) 求根到叶子节点数字之和 递归 √
+- [222 Count Complete Tree Nodes(medium)](https://leetcode-cn.com/problems/count-complete-tree-nodes/) 完全二叉树的节点个数 √
+- [236 二叉树的最近公共节点(medium)](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) √
+- 323 Number of Connected Components in an Undirected Graph(medium) 无向图中连通分量的数目  locked
 - 124 	Binary Tree Maximum Path Sum  (hard)
 
 
@@ -89,9 +86,10 @@
 ## BFS
 
 - 107 Binary Tree Level Order Traversal II (easy)
-- 102 	Binary Tree Level Order Traversal   (medium)
+- [102 二叉树层序遍历（medium）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 - 103 Binary Tree Zigzag Level Order Traversal (medium)
 - 207 Course Schedule(medium)
+- [199	Binary Tree Right Side View  (medium)  ](https://leetcode-cn.com/problems/binary-tree-right-side-view/)  二叉树的右视图 层序遍历
 - 210 Course Schedule II(medium)
 - 130 Surrounded Regions(medium)
 - 286 Walls and Gates(medium)
@@ -126,6 +124,7 @@ int mid = left + (right - left) / 2;
 - [153 Find Minimum in Rotated Sorted Array(medium)](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - [162 Find Peak Element (medium)](https://leetcode-cn.com/problems/find-peak-element/)
 - [275 H-Index II (medium)](https://leetcode-cn.com/problems/h-index-ii/)
+- 378 有序矩阵中第k小的元素 medium
 ## 滑动窗口型
 见大神的一篇(https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
 初始左指针（left）和右指针（right）都指向0
@@ -168,6 +167,7 @@ Subarrays with Product Less than a Target (medium)
 - [15 3Sum  (medium)](https://leetcode-cn.com/problems/3sum/) √
 - [16 3Sum Closest    最接近三数只和 (medium)](https://leetcode-cn.com/problems/3sum-closest/) √
 - [18 4Sum (medium)](https://leetcode-cn.com/problems/4sum/) √
+- 209 长度最小的子数组 medium 可以用双指针 或者前缀和
 
 
  快慢指针
@@ -190,6 +190,21 @@ Subarrays with Product Less than a Target (medium)
 - 215 Kth Largest Element in an Array    (medium)
 - 230 Kth Smallest Element in a BST   (medium)
 - 347 Top K Frequent Elements    (medium)
+
+
+
+## 字符串
+
+多数能用动态规划来解决
+
+- 53 最大子序和 easy
+- 121 买卖股票的最大利润 easy
+- 5 最长回文子串 medium 
+- 300 最长上升子序列 medium
+- 516 最长回文子序列 medium
+- 1143 最长公共子序列 medium
+- 128 最长连续序列 hard
+
 ## 区间合并
 - 21 	Merge Two Sorted Lists (easy)
 - 88 Merge Sorted Array (easy)
@@ -223,6 +238,10 @@ Subarrays with Product Less than a Target (medium)
 
 ## 位运算
 -89 Gray code (medium)
+
+## 常见数组题
+
+- 215 数组中第K大元素 medium  可以是二分、快排、堆排序
 
 
 
